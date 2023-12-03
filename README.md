@@ -1,16 +1,16 @@
 # ProiectTM-SQL
 
-##Introduction:
+## Introduction:
 Create a database for storing and retrieving information about PC builds including all the parts from these builds.
 
-###Type of commands used:
+### Type of commands used:
 Data Definition Language (DDL)
 - Create
 - Drop
 - Alter
 - Rename
 
-###Data Manipulation Language (DML)
+### Data Manipulation Language (DML)
 - Insert
 - Update
 - Delete
