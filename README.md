@@ -35,7 +35,7 @@
 - Procesor
 
  ### Information on each table
-#### Build - main table:
+#### Build - main table
 Contains columns:
 - ID (primary key)
 - Denumire
@@ -46,27 +46,27 @@ Contains columns:
 - IDProcesor (foreign key IDProcesor references Procesor ID)
 - IDSpatiuDeStocare (foreign key IDSpatiuStocare references SpatiuStocare ID)
 
-#### Carcasa:
+#### Carcasa
 Contains columns:
 - ID (primary key)
 - Nume
 - Marime
 
-#### MemorieRam:
+#### MemorieRam
 Contains columns:
 - ID (primary key)
 - Nume
 - Frecventa
 - Tip
 
-#### PlacaDeBaza:
+#### PlacaDeBaza
 Contains columns:
 - ID (primary key)
 - Nume
 - Marime
 - Slot Procesor
 
-#### PlacaVideo:
+#### PlacaVideo
 Contains columns:
 - ID (primary key)
 - Nume
@@ -74,14 +74,14 @@ Contains columns:
 - Gaming
 - Producator
 
-#### Procesor:
+#### Procesor
 Contains columns:
 - ID
 - Nume
 - Frecventa
 - Nuclee
 
-#### SpatiuStocare:
+#### SpatiuStocare
 Contains columns:
 - ID
 - Producator
@@ -90,4 +90,4 @@ Contains columns:
 
 
 
-link to collection 
+[Database](https://demo.guru99.com/V4/index.php)
