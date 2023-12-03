@@ -1,5 +1,7 @@
 # ProiectTM-SQL
 
+[Database](https://github.com/IsFloros/ProiectTM-SQL/blob/main/PC_Sale.sql)
+
 ## Introduction:
 - We will be creating a database for storing and retrieving information about PC builds including all the parts from these builds.
 
@@ -89,5 +91,3 @@ Contains columns:
 - Gaming
 
 
-
-[Database](https://demo.guru99.com/V4/index.php)
