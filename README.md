@@ -34,4 +34,60 @@
 - PlacaVideo
 - Procesor
 
+ ### Information on each table
+#### Build - main table:
+Contains columns:
+- ID (primary key)
+- Denumire
+- IDCarcasa (foreign key IDCarcasa references carcasa ID)
+- IDMemorieRam (foreign key IDMemorieram references MemorieRam ID)
+- IDPlacaDeBaza (foreign key IDPlacaDeBaza references PlacaDeBaza ID)
+- IDPlacaVideo (foreign key IDPlacaVideo references PlacaVideo ID)
+- IDProcesor (foreign key IDProcesor references Procesor ID)
+- IDSpatiuDeStocare (foreign key IDSpatiuStocare references SpatiuStocare ID)
+
+#### Carcasa:
+Contains columns:
+- ID (primary key)
+- Nume
+- Marime
+
+#### MemorieRam:
+Contains columns:
+- ID (primary key)
+- Nume
+- Frecventa
+- Tip
+
+#### PlacaDeBaza:
+Contains columns:
+- ID (primary key)
+- Nume
+- Marime
+- Slot Procesor
+
+#### PlacaVideo:
+Contains columns:
+- ID (primary key)
+- Nume
+- VideoRam
+- Gaming
+- Producator
+
+#### Procesor:
+Contains columns:
+- ID
+- Nume
+- Frecventa
+- Nuclee
+
+#### SpatiuStocare:
+Contains columns:
+- ID
+- Producator
+- Capacitate
+- Gaming
+
+
+
 link to collection 
