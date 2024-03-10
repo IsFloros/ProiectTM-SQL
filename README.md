@@ -15,7 +15,7 @@
 - Create
 - Drop
 - Alter
-- Rename
+- Truncate
 
 ### Data Manipulation Language (DML)
 - Insert
@@ -24,6 +24,8 @@
 
 ### Data Query Language (DQL)
 - Select
+- Filters
+- Subquerys
 
 ### Name of Data Base: PC_Sale
 
@@ -35,6 +37,7 @@
 - PlacaDeBaza
 - PlacaVideo
 - Procesor
+- SpatiuStocare
 
  ### Information on each table
 #### Build - main table
@@ -78,14 +81,14 @@ Contains columns:
 
 #### Procesor
 Contains columns:
-- ID
+- ID (primary key)
 - Nume
 - Frecventa
 - Nuclee
 
 #### SpatiuStocare
 Contains columns:
-- ID
+- ID (primary key)
 - Producator
 - Capacitate
 - Gaming
