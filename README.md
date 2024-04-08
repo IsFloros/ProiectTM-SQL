@@ -46,12 +46,12 @@ Tools used: MySQL Workbench
 Contains columns:
 - ID (primary key)
 - Denumire
-- IDCarcasa ("Build" table is connected with "Carcasa" table through a foreign key relationship which was implemented through **Carcasa_table.ID_primary_key** as a primary key and **Build_table.IDCarcasa_foreign_key** as a foreign key) ((foreign key IDCarcasa references primary key carcasa ID))
-- IDMemorieRam ("Build" table is connected with "MemorieRam" table through a foreign key relationship which was implemented through **MemorieRam_table.ID_primary_key** as a primary key and **Build_table.IDMemorieRam_foreign_key** as a foreign key) ((foreign key IDMemorieram references primary key MemorieRam ID))
-- IDPlacaDeBaza ("Build" table is connected with "PlacaDeBaza" table through a foreign key relationship which was implemented through **PlacaDeBaza_table.ID_primary_key** as a primary key and **Build_table.IDPlacaDeBaza_foreign_key** as a foreign key) ((foreign key IDPlacaDeBaza references primary key PlacaDeBaza ID))
-- IDPlacaVideo ("Build" table is connected with "PlacaVideo" table through a foreign key relationship which was implemented through **PlacaVideo_table.ID_primary_key** as a primary key and **Build_table.IDPlacaVideo_foreign_key** as a foreign key) ((foreign key IDPlacaVideo references primary key PlacaVideo ID))
-- IDProcesor ("Build" table is connected with "PlacaVideo" table through a foreign key relationship which was implemented through **Procesor_table.ID_primary_key** as a primary key and **Build_table.IDProcesor_foreign_key** as a foreign key) ((foreign key IDProcesor references primary key Procesor ID))
-- IDSpatiuDeStocare ("Build" table is connected with "SpatiuStocare" table through a foreign key relationship which was implemented through **SpatiuStocare_table.ID_primary_key** as a primary key and **Build_table.IDSpatiuStocare_foreign_key** as a foreign key) ((foreign key IDSpatiuStocare references primaty key SpatiuStocare ID))
+- IDCarcasa ("Build" table is connected with "Carcasa" table through a foreign key relationship which was implemented through **Carcasa_table.ID** as a primary key and **Build_table.IDCarcasa** as a foreign key) ((foreign key IDCarcasa references primary key carcasa ID))
+- IDMemorieRam ("Build" table is connected with "MemorieRam" table through a foreign key relationship which was implemented through **MemorieRam_table.ID** as a primary key and **Build_table.IDMemorieRam** as a foreign key) ((foreign key IDMemorieram references primary key MemorieRam ID))
+- IDPlacaDeBaza ("Build" table is connected with "PlacaDeBaza" table through a foreign key relationship which was implemented through **PlacaDeBaza_table.ID** as a primary key and **Build_table.IDPlacaDeBaza** as a foreign key) ((foreign key IDPlacaDeBaza references primary key PlacaDeBaza ID))
+- IDPlacaVideo ("Build" table is connected with "PlacaVideo" table through a foreign key relationship which was implemented through **PlacaVideo_table.ID** as a primary key and **Build_table.IDPlacaVideo** as a foreign key) ((foreign key IDPlacaVideo references primary key PlacaVideo ID))
+- IDProcesor ("Build" table is connected with "PlacaVideo" table through a foreign key relationship which was implemented through **Procesor_table.ID** as a primary key and **Build_table.IDProcesor** as a foreign key) ((foreign key IDProcesor references primary key Procesor ID))
+- IDSpatiuDeStocare ("Build" table is connected with "SpatiuStocare" table through a foreign key relationship which was implemented through **SpatiuStocare_table.ID** as a primary key and **Build_table.IDSpatiuStocare** as a foreign key) ((foreign key IDSpatiuStocare references primaty key SpatiuStocare ID))
 
 #### Carcasa
 Contains columns:
