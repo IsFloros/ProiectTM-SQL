@@ -1,6 +1,7 @@
-# Database Project for PC-Sale in SQL
+# Database Project for PC-Sale
 
 [Database](https://github.com/IsFloros/ProiectTM-SQL/blob/main/PC_Sale.sql)
+Tools used: MySQL Workbench
 
 ## Introduction:
 - We will be creating a database for storing and retrieving information about PC builds including all the parts from these builds.
@@ -39,17 +40,18 @@
 - Procesor
 - SpatiuStocare
 
- ### Information on each table
+ ### Database Schema 
+ ### You can find below the database schema that was generated through Reverse Engineer and which contains all the tables and the relationships between them. 
 #### Build - main table
 Contains columns:
 - ID (primary key)
 - Denumire
-- IDCarcasa (foreign key IDCarcasa references carcasa ID)
-- IDMemorieRam (foreign key IDMemorieram references MemorieRam ID)
-- IDPlacaDeBaza (foreign key IDPlacaDeBaza references PlacaDeBaza ID)
-- IDPlacaVideo (foreign key IDPlacaVideo references PlacaVideo ID)
-- IDProcesor (foreign key IDProcesor references Procesor ID)
-- IDSpatiuDeStocare (foreign key IDSpatiuStocare references SpatiuStocare ID)
+- IDCarcasa ("Build" table is connected with "Carcasa" table through a foreign key relationship which was implemented through **Carcasa_table.ID_primary_key** as a primary key and **Build_table.IDCarcasa_foreign_key** as a foreign key) ((foreign key IDCarcasa references primary key carcasa ID))
+- IDMemorieRam ("Build" table is connected with "MemorieRam" table through a foreign key relationship which was implemented through **MemorieRam_table.ID_primary_key** as a primary key and **Build_table.IDMemorieRam_foreign_key** as a foreign key) ((foreign key IDMemorieram references primary key MemorieRam ID))
+- IDPlacaDeBaza ("Build" table is connected with "PlacaDeBaza" table through a foreign key relationship which was implemented through **PlacaDeBaza_table.ID_primary_key** as a primary key and **Build_table.IDPlacaDeBaza_foreign_key** as a foreign key) ((foreign key IDPlacaDeBaza references primary key PlacaDeBaza ID))
+- IDPlacaVideo ("Build" table is connected with "PlacaVideo" table through a foreign key relationship which was implemented through **PlacaVideo_table.ID_primary_key** as a primary key and **Build_table.IDPlacaVideo_foreign_key** as a foreign key) ((foreign key IDPlacaVideo references primary key PlacaVideo ID))
+- IDProcesor ("Build" table is connected with "PlacaVideo" table through a foreign key relationship which was implemented through **Procesor_table.ID_primary_key** as a primary key and **Build_table.IDProcesor_foreign_key** as a foreign key) ((foreign key IDProcesor references primary key Procesor ID))
+- IDSpatiuDeStocare ("Build" table is connected with "SpatiuStocare" table through a foreign key relationship which was implemented through **SpatiuStocare_table.ID_primary_key** as a primary key and **Build_table.IDSpatiuStocare_foreign_key** as a foreign key) ((foreign key IDSpatiuStocare references primaty key SpatiuStocare ID))
 
 #### Carcasa
 Contains columns:
