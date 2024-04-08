@@ -1,4 +1,4 @@
-# ProiectTM-SQL
+# Database Project for PC-Sale in SQL
 
 [Database](https://github.com/IsFloros/ProiectTM-SQL/blob/main/PC_Sale.sql)
 
