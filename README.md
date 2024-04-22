@@ -20,7 +20,7 @@ Tools used: MySQL Workbench
 
  ### Database Schema 
  ### You can find attached the database schema that was generated through Reverse Engineering and which contains all the tables and the relationships between them.
-(https://github.com/IsFloros/ProiectTM-SQL/blob/main/reverse%20engineering.png)
+ ![Reverse Engineering](https://github.com/IsFloros/ProiectTM-SQL/blob/main/reverse%20engineering.png)
  
  Below you can also check extensive information about the database tables and relationships.
 #### Build - main table
